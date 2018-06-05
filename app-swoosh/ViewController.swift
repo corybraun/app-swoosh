@@ -15,11 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //To go back to the previous screen. In our app this one is from the 2nd page to the 1st page.
+    @IBAction func unwindFromSKillVC(unwindSegue: UIStoryboardSegue) {
+        
     }
-
 
 }
 
